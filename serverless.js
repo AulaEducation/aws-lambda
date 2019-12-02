@@ -61,7 +61,7 @@ class AwsLambda extends Component {
       credentials: this.context.credentials.aws
     })
 
-    const awsIamRole = await this.load('@serverless/aws-iam-role')
+    const awsIamRole = await this.load('@ublend-npm/aws-iam-role')
 
     // If no role exists, create a default role
     let outputsAwsIamRole

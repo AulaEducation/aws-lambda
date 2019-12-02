@@ -1,6 +1,6 @@
 {
-  "name": "@serverless/aws-lambda",
-  "version": "3.0.0",
+  "name": "@ublend-npm/aws-lambda",
+  "version": "0.0.2",
   "main": "./serverless.js",
   "publishConfig": {
     "access": "public"
@@ -12,7 +12,7 @@
   "author": "Serverless, Inc.",
   "license": "Apache",
   "dependencies": {
-    "@serverless/aws-iam-role": "^1.0.0",
+    "@ublend-npm/aws-iam-role": "0.0.1",
     "@serverless/aws-lambda-layer": "^1.0.0",
     "@serverless/aws-s3": "^2.0.0",
     "@serverless/core": "^1.0.0",
